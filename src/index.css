@@ -12,3 +12,29 @@
   list-style-type: none;
   text-decoration: none;
 }
+
+
+.container {
+  @apply mx-auto px-3 md:max-w-[992px] lg:max-w-[1220px]
+}
+
+.active:hover:after{
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #B18B5E;
+  animation: borderGrow 0.5s forwards;
+}
+
+@keyframes borderGrow {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
