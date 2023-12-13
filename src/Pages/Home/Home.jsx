@@ -8,7 +8,7 @@ import Chart from './Chart/Chart';
 
 const Home = () => {
     return (
-        <div>
+        <div className='overflow-hidden'>
            <HeroSection></HeroSection>
            <GapSection></GapSection>
            <ImageSection></ImageSection>

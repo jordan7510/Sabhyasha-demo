@@ -33,8 +33,8 @@ const SolveSection = () => {
           </div>
         </div>
 
-        <div className="info-section space-y-6 flex-1 relative">
-          <div>
+        <div className="info-section overflow-hidden space-y-6 flex-1 relative">
+          <div data-aos="fade-left" data-aos-duration="2000">
             <h2 className="text-2xl">
               <span className="text-5xl font-bold text-[#C4832A]">A</span>nd
               1000s of others can <span className="text-[#C4832A]">tap</span>{" "}
@@ -43,7 +43,7 @@ const SolveSection = () => {
             </h2>
             <div className="w-[145px] my-3 h-1  bg-[#952125]"></div>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="2000">
             <h2 className="text-2xl">
               <span className="text-5xl font-bold text-[#C4832A]">A</span>nd
               1000s of others can <span className="text-[#C4832A]">tap</span>{" "}
@@ -52,7 +52,7 @@ const SolveSection = () => {
             </h2>
             <div className="w-[145px] my-3 h-1  bg-[#952125]"></div>
           </div>
-          <div>
+          <div data-aos="fade-left" data-aos-duration="2000">
             <h2 className="text-2xl">
               <span className="text-5xl font-bold text-[#C4832A]">A</span>nd
               1000s of others can <span className="text-[#C4832A]">tap</span>{" "}

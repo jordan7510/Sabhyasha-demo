@@ -52,7 +52,7 @@ const Chart = () => {
         <ul className="space-y-6">
           {tokenDetailsData.map((item, index) => {
             return (
-              <li className="path-warper" key={index}>
+              <li data-aos="fade-right" data-aos-duration="2000" className="path-warper" key={index}>
                 <div
                   className={`w-full flex-col md:flex-row flex items-start md:items-center list-card-clip-path px-5 py-4 rounded-lg gap-2 md:gap-5 bg-[${item.itemColor}] drop-shadow-lg`}
                   style={{

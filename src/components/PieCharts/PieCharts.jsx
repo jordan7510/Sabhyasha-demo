@@ -8,8 +8,8 @@ ChartJS.register(
 );
 
 const items = [
-  { itemName: "Service", itemValue: 1, color: "#FEA51B" },
-  { itemName: "Product", itemValue: 99, color: "#5C2F18" },
+  { itemName: "Service", itemValue: 5, color: "#FEA51B" },
+  { itemName: "Product", itemValue: 95, color: "#5C2F18" },
 ];
 
 const PieCharts = ({ angle, draw }) => {
@@ -35,7 +35,7 @@ const PieCharts = ({ angle, draw }) => {
             align: 'end',
             offset: 10,
             font: {
-              size: 35,
+              size: 10,
               weight: 'bold',
             },
             color: '#ffffff',
@@ -60,6 +60,7 @@ const PieCharts = ({ angle, draw }) => {
           <Pie data={data} options={options} style={{
             filter: 'drop-shadow(10px 8px 2px 5px #898D9B)',
             width: '100%',
+            height:"400px",
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',

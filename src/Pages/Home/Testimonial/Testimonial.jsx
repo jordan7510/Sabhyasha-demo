@@ -3,8 +3,8 @@ import testi from "../../../assets/images/testmonial.webp";
 const Testimonial = () => {
   return (
     <div className="py-32 bg-testimonial">
-      <div className="max-w-full w-[900px] mx-auto rounded-2xl shadow-xl bg-[#F8EBE1]">
-        <div className=" px-24 py-16">
+      <div data-aos="zoom-in" className="max-w-full w-[900px] mx-auto rounded-2xl shadow-xl bg-[#F8EBE1]">
+        <div  className=" px-24 py-16">
           <div className=" flex items-start justify-center">
             <span className="text-7xl font-semibold -mt-5 text-black">“</span>
             <img src={testi} alt="" />
