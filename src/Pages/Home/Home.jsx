@@ -6,7 +6,7 @@ import GapSection from './GapSection/GapSection';
 const Home = () => {
     return (
         <div>
-           {/* <HeroSection></HeroSection> */}
+           <HeroSection></HeroSection>
            <GapSection></GapSection>
            <SolveSection></SolveSection>
         </div>
