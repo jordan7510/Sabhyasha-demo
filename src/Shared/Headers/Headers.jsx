@@ -50,7 +50,7 @@ const Headers = () => {
 
 
   return (
-    <header className={`fixed  z-50 bg-[#F5FAFF] duration-300 top-0 right-0 left-0 py-8 ${scroll ? "shadow-lg" : ""}`}>
+    <header className={`fixed  z-[100] bg-[#F5FAFF] duration-300 top-0 right-0 left-0 py-8 ${scroll ? "shadow-lg" : ""}`}>
           <nav className="flex  flex-col md:flex-row container  items-center justify-between">
             <div className="flex items-center w-full justify-between">
               <Link to="/">
