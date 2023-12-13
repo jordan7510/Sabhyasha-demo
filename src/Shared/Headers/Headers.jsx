@@ -8,10 +8,7 @@ const navLinks = [
       name: "Home",
       href:"/"
     },
-    {
-      name: "Shop",
-      href:"/"
-    },
+    
     {
       name: "Category",
       href:"/"
@@ -26,6 +23,10 @@ const navLinks = [
     },
     {
       name:"Contact",
+      href:"/"
+    },
+    {
+      name: "Shop",
       href:"/"
     }
   ]

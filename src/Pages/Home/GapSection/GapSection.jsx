@@ -15,7 +15,7 @@ const GapSection = () => {
                     <ul className='space-y-4 py-8 pl-10 text-right'>
                         <li><span className='text-4xl text-[#C4832A]'>Government -</span> <span className='text-xl text-[#5A444B]'>But they cannot support everyone.</span></li>
 
-                        <li><span className='text-4xl text-[#C4832A]' >Trade Fairs -</span> <span className='text-xl text-[#5A444B]'>But every artisan does not access to these.</span></li>
+                        <li><span className='text-4xl text-[#C4832A]' >Trade Fairs -</span> <span className='text-xl text-[#5A444B]'>But every artisan does not have access to these.</span></li>
 
                         <li><span className='text-4xl text-[#C4832A]'>Tourists -</span> <span className='text-xl text-[#5A444B]'>But they do not visit every nook  & corner of the country.</span></li>
 
