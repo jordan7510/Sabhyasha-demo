@@ -59,3 +59,23 @@
 .mainSlider .swiper-slide-active .image-layer {
   @apply scale-150 z-10;
 }
+
+
+.animate-scroll-btn{
+  animation: scrollbtn 1s ease-out 1s ;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes scrollbtn {
+
+  /* 50%{
+    right: 20px;
+    bottom: -96px;
+  } */
+  100%{
+    right: 300px;
+    bottom: -140px;
+  }
+}
+

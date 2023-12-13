@@ -1,6 +1,12 @@
 import React from "react";
 import { GiBamboo } from "react-icons/gi";
-import { FaLayerGroup, FaTools, FaTree } from "react-icons/fa";
+import {
+  FaArrowDown,
+  FaLayerGroup,
+  FaScroll,
+  FaTools,
+  FaTree,
+} from "react-icons/fa";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay, Navigation, Pagination } from "swiper/modules";
@@ -11,7 +17,7 @@ import "swiper/css/pagination";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-[750px] md:h-screen">
+    <section className="relative overflow-hidden h-[750px] md:h-screen">
       <Swiper
         spaceBetween={30}
         effect={"fade"}
@@ -66,43 +72,14 @@ const HeroSection = () => {
                 ></path>
               </svg>
             </span>
-            <span class="relative">
-            Discover more
-            </span>
+            <span class="relative">Discover more</span>
           </a>
         </div>
-        {/* <div data-aos="zoom-in" className="container  bg-[#6b9620e5]">
-            <div  className="p-4 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4">
-              <div className="flex gap-2 md:gap-4 px-2 md:p-4 ">
-                <GiBamboo className="text-4xl md:text-6xl text-[#E9F622]"></GiBamboo>
-                <div className="text-white">
-                  <h3 className="text-2xl md:text-3xl mb-2 font-bold">Gardening</h3>
-                  <p>Tellus vivamus non rutrum urna cras laoreet magnis.</p>
-                </div>
-              </div>
-              <div className="flex gap-2 md:gap-4 px-2 md:p-4 md:border-l">
-                <FaLayerGroup className="text-4xl md:text-6xl text-[#E9F622]"></FaLayerGroup>
-                <div className="text-white">
-                  <h3 className="text-2xl md:text-3xl mb-2 font-bold">Landscaping</h3>
-                  <p>Tellus vivamus non rutrum urna cras laoreet magnis.</p>
-                </div>
-              </div>
-              <div className="flex gap-2 md:gap-4 px-2 md:p-4 md:border-l">
-                <FaTools className="text-4xl md:text-6xl text-[#E9F622]"></FaTools>
-                <div className="text-white">
-                  <h3 className="text-2xl md:text-3xl mb-2 font-bold">Maintenance</h3>
-                  <p>Tellus vivamus non rutrum urna cras laoreet magnis.</p>
-                </div>
-              </div>
-              <div className="flex gap-2 md:gap-4 px-2 md:p-4 md:border-l">
-                <FaTree className="text-4xl md:text-6xl text-[#E9F622]"></FaTree>
-                <div className="text-white">
-                  <h3 className="text-2xl md:text-3xl mb-2 font-bold">Nursery</h3>
-                  <p>Tellus vivamus non rutrum urna cras laoreet magnis.</p>
-                </div>
-              </div>
-            </div>
-          </div> */}
+        <div className=" absolute animate-scroll-btn bottom-60 -right-60 rounded-full p-7  bg-white">
+          <div className="flex h-24 items-center w-24 justify-center">
+            <FaArrowDown size={35} />
+          </div>
+        </div>
       </div>
     </section>
   );
