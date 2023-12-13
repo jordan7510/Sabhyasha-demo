@@ -2,7 +2,7 @@ import React from "react";
 import testi from "../../../assets/images/testmonial.webp";
 const Testimonial = () => {
   return (
-    <div className="py-24 bg-testimonial">
+    <div className="py-32 bg-testimonial">
       <div className="max-w-full w-[900px] mx-auto rounded-2xl shadow-xl bg-[#F8EBE1]">
         <div className=" px-24 py-16">
           <div className=" flex items-start justify-center">

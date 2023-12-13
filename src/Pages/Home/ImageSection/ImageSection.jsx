@@ -4,10 +4,10 @@ import "./ImageSection.css"
 
 const ImageSection = () => {
     return (
-        <div className='flex items-center justify-center h-[100vh] '>
-           
+        <div className='flex -my-36 -mb-48 items-center justify-center '>
+            
 
-            <div className='image-div w-[70%] h-[60vh] hover:scale-105 duration-500'></div>
+            <div className='image-div rounded-3xl shadow-lg w-[70%] h-[60vh] hover:scale-105 duration-500'></div>
 
            
         </div>

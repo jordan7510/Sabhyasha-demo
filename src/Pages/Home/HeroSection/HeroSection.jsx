@@ -75,8 +75,8 @@ const HeroSection = () => {
             <span class="relative">Discover more</span>
           </a>
         </div>
-        <div className=" absolute animate-scroll-btn bottom-60 -right-60 rounded-full p-7  bg-white">
-          <div className="flex h-24 items-center w-24 justify-center">
+        <div className=" absolute bg-[#F8EBE1] animate-scroll-btn  bottom-60 -right-60 rounded-full p-7">
+          <div className="flex text-[#C4832A] h-24 items-center w-24 justify-center">
             <FaArrowDown size={35} />
           </div>
         </div>

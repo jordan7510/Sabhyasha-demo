@@ -13,6 +13,25 @@
   text-decoration: none;
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #5732c6 #00003e;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-button,
+*::-webkit-scrollbar-thumb {
+  background-color: #C4832A;
+}
+
+*::-webkit-scrollbar-track {
+  background: #F8EBE1;
+}
+
+
 
 .container {
   @apply mx-auto px-3 md:max-w-[992px] lg:max-w-[1220px]
@@ -71,7 +90,7 @@
 
   100%{
     right: 300px;
-    bottom: -140px;
+    bottom: -100px;
   }
 }
 
@@ -83,4 +102,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+
+
+#token-section div canvas{
+ 
+  margin: 0 auto;
+}
+
+.list-card-clip-path {
+  clip-path: polygon(90% 0%, 100% 50%, 90% 100%, 0% 100%, 0 53%, 0% 0%);
+}
+
+.path-warper {
+  filter: drop-shadow(10px 8px 5px #898d9bb8)
 }
