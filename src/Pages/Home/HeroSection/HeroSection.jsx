@@ -41,13 +41,13 @@ const HeroSection = () => {
 
       <div className="absolute flex flex-col gap-6 md:gap-28 w-full top-1/2 z-50 left-1/2 -translate-x-1/2 -translate-y-16">
         <div className="text-white max-w-full w-11/12 md:w-6/12 mx-auto text-center space-y-3">
-          <h2 className=" text-2xl md:text-6xl uppercase font-bold">
+          <h2 data-aos="zoom-in" className=" text-2xl md:text-6xl uppercase font-bold">
             Empowering India's Artisans
           </h2>
-          <p className="md:text-xl">
+          {/* <p className="md:text-xl">
             Fully insured with a total satisfaction guarantee and amazing
             customer support.
-          </p>
+          </p> */}
           {/* <button className="btn text-white border-0  rounded py-3 px-6 bg-[#C68732]">
             Discover more
           </button> */}

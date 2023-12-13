@@ -3,6 +3,7 @@ import image from "../../../assets/images/solveImage.jpg";
 import image2 from "../../../assets/images/solveimage2.jpg";
 import image3 from "../../../assets/images/solveimage3.jpg";
 
+
 const SolveSection = () => {
   return (
     <div className="flex pt-60 py-32 flex-col bg-[#F8EBE1] min-h-screen font-[200]">
