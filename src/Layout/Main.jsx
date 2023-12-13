@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import Headers from '../Shared/Headers/Headers';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import Footer from '../Shared/Footer/Footer';
 const Main = () => {
 
     useEffect(() => {
@@ -13,6 +14,7 @@ const Main = () => {
         <div>
             <Headers></Headers>
             <Outlet></Outlet>
+            <Footer></Footer>
         </div>
     );
 };
