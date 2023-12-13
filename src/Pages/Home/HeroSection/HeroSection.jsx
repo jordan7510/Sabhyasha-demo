@@ -44,10 +44,10 @@ const HeroSection = () => {
           <h2 className=" text-2xl md:text-6xl uppercase font-bold">
             Empowering India's Artisans
           </h2>
-          <p className="md:text-xl">
+          {/* <p className="md:text-xl">
             Fully insured with a total satisfaction guarantee and amazing
             customer support.
-          </p>
+          </p> */}
           {/* <button className="btn text-white border-0  rounded py-3 px-6 bg-[#C68732]">
             Discover more
           </button> */}

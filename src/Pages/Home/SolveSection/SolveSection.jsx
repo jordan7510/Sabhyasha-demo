@@ -3,12 +3,13 @@ import image from "../../../assets/images/solveImage.jpg"
 import image2 from "../../../assets/images/solveimage2.jpg"
 import image3 from "../../../assets/images/solveimage3.jpg"
 
+
 const SolveSection = () => {
     return (
         <div className="flex flex-col bg-[#F8EBE1] min-h-screen font-[200]">
             <div className='py-10'>
                 <h2 className='text-5xl text-center'>And </h2>
-                <h2 className='text-4xl text-center'>we are here to solve it so that</h2>
+                    <h2 className='text-4xl text-center'>we are here to solve it so that</h2>
             </div>
 
             <div className='flex flex-col md:flex-row py-2 px-5 items-center justify-center'>
